@@ -1,0 +1,177 @@
+/****
+ * Style CSS Custom
+ * author: Santo Doni Romadhoni
+ * email : exblopz@gmail.com
+ */ 
+/*** ANCHOR ***/
+
+.navbar-nav a:hover{
+	background-color: #1BB43A!important;
+} 
+ 
+/*** CONTENT ***/
+header{
+	margin:0px;
+}
+
+header .topbar{
+	background:#1BB43A;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.topbar a{
+	color:#FFFFFF;
+}
+
+.topbar #topsocial{
+	margin-bottom:0;
+	padding:4px;
+}
+
+.topbar #topsocial li{ 
+	display:inline;
+}
+
+.borderleft{ border-left:2px solid #ddd; }
+
+/*** NAVBAR ***/
+.navbar-inverse{
+	background-color: #45C473f !important;
+	border-color: #45C473f !important;
+}
+.navbar{margin-bottom:0px !important;}
+/** END NAVBAR **/
+
+.content{
+	min-height:580px;
+	margin-top:0px;
+}
+
+.inner-content{
+	border-left:3px solid #137B95;
+	min-height:580px;
+	padding-left:10px;
+}
+
+.box{
+	border: 1px solid #DEDEDE;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+	box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-webkit-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-moz-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+}
+
+.box-content {
+	padding:10px;
+}
+
+.box-bengkel{
+	border: 1px solid #DEDEDE;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+	box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-webkit-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-moz-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+}
+
+.box-bengkel-content{
+	padding:10px;
+}
+
+.center{
+	text-align: center !important;
+}
+
+.autowidth{
+	width:auto !important;
+}
+
+.number{
+	text-align: right !important;
+}
+
+footer{
+	border-top:1px solid #AFB5F6;
+	padding:10px;
+	height:40px;
+	color:#FFFFFF;
+	background-color: #1E1E1E;
+}
+
+footer a{color: #ffffff;font-size:12px;}
+
+
+/*** CONTENT ***/
+
+/**** FORM ****/
+.form-horizontal{
+	position:relative;
+	top:15px;
+	bottom:100px;
+	min-height:600px;
+}
+
+.input-panjang{
+	width:500px;
+}
+
+.input-sedang{
+	width:300px;
+}
+
+.input-pendek{
+	width:120px;
+}
+
+.input-sangatpendek{
+	width:70px;
+}
+
+/*** END FORM ****/
+
+.ui-autocomplete { z-index:2147483647; }
+.modal-body{overflow-x:hidden;height:450px;}
+
+/**** ICONS ***/
+.socialicon{ padding-left:10px;padding-right:10px;width:auto;margin:0;min-height:1px;}
+.logo { max-height:32px;}
+
+/** BEFORE FOOTER ***/
+
+.before-footer{
+	font-family:"Open Sans",Calibri,Candara,Arial,sans-serif;
+	color:#FFFFFF !important;
+	background-color:#585858 !important;
+}
+
+.before-footer a{ color: #ffffff; }
+
+.before-footer h4 {
+	font-weight:bold;
+	font-size:20px;
+}
+
+.before-footer p,li{
+	font-size:14px;
+}
+
+.before-footer ul{	
+	padding-left:0px;
+	margin-left:0px;
+	margin-bottom:15px;
+}
+
+.before-footer li{
+	font-size:14px;
+	list-style-type:none;
+}
+
+/** END BEFORE FOOTER ***/

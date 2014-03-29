@@ -1,0 +1,77 @@
+/****
+ * Style CSS Custom
+ * author: Santo Doni Romadhoni
+ * email : exblopz@gmail.com
+ */ 
+/*** CONTENT ***/
+.content{
+	min-height:600px;
+	margin-top:50px;
+}
+
+.box{
+	border: 1px solid #DEDEDE;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-top: 10px; 
+	margin-bottom: 10px ;
+	box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-webkit-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+	-moz-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+}
+
+.box-content {
+	padding:10px;
+}
+
+.center{
+	text-align: center !important;
+}
+
+.autowidth{
+	width:auto !important;
+}
+
+.number{
+	text-align: right !important;
+}
+
+footer{
+	border-top:1pt solid #61BFC5;
+	padding:10px;
+	height:70px;
+}
+
+
+/*** CONTENT ***/
+
+/**** FORM ****/
+.form-horizontal{
+	position:relative;
+	top:15px;
+	bottom:100px;
+	min-height:250px;
+}
+
+.input-panjang{
+	width:500px !important;
+}
+
+.input-sedang{
+	width:300px !important;
+}
+
+.input-pendek{
+	width:120px !important;
+}
+
+.input-sangatpendek{
+	width:70px !important;
+}
+
+/*** END FORM ****/
+
+.ui-autocomplete { position: absolute; cursor:default; z-index:2147483647 !important; }
+.ui-autocomplete-input { position: absolute; cursor:default; z-index:2147483647 !important; }
+.modal-body{overflow-x:hidden;height:450px;}

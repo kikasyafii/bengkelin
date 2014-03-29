@@ -1,0 +1,12 @@
+/*** CUSTOM CARAT ***/
+
+.top-title { color: #000000 !important;}
+.top-subtitle { color: #000000 !important; } 
+
+.chosen-results ul {z-index:9999999 !important;}
+.active-result{z-index:9999999 !important;}
+.chosen-container{z-index:9999999 !important;}
+.chosen-container-single{z-index:9999999 !important;}
+.chosen-drop{z-index:9999999 !important;}
+
+.frontpage { z-index:100;}
